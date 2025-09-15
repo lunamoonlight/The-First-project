@@ -39,21 +39,28 @@
 }
 
 .table {
-  display: flex;
+  display: grid;
   max-width: 800px;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .table__hobbies {
-  display: flex;
-  flex-direction: column;
-  border: 1px;
+  border: 1px solid green;
+  border-radius: 5px 0 0 5px;
+  place-items: center;
 }
 
-.table__hobbies-title {
-  size: 14px;
-  font-size: Inter;
-  justify-content: center;
-  border: 1px;
+.table__social {
+  border: 1px solid green;
+  border-radius: 0 5px 5px 0;
+  place-items: center;
+  border-bottom: 1px solid green;
+}
+
+.table__hobbies-title,
+.table__social-title {
+  text-align: center;
 }
   
 
