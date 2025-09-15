@@ -1,8 +1,17 @@
-.wrapper
-{
-  max-width:800px;
+.wrapper {
+  max-width: 800px;
   margin: 0 auto;
 }
+
+.h1 {
+  font-size: 24px;
+}
+
+
+.h2 {
+  font-size: 24px;
+}
+
 .header {
   display: flex;
   gap: 30px;
@@ -24,34 +33,28 @@
   justify-content: center;
   align-items: flex-end;
 }
-.about
-{
-  margin-top:20px;
-  size:14px;
-  weight:700px;
-  font-size:Inter;
+
+.about {
+  margin-top: 20px;
 }
-.table
-{
-  display:flex;
-  max-wight:800px;
+
+.table {
+  display: flex;
+  max-width: 800px;
 }
-.table__hobbies
-{
-  display:flex;
-  flex-direction:column;
+
+.table__hobbies {
+  display: flex;
+  flex-direction: column;
   border: 1px;
 }
-.table__hobbies-title
-{
-  size:14px;
-  font-size:Inter;
+
+.table__hobbies-title {
+  size: 14px;
+  font-size: Inter;
   justify-content: center;
   border: 1px;
 }
-
-
-  
   
 
 
