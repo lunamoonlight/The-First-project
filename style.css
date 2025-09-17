@@ -39,29 +39,53 @@
 }
 
 .table {
-  display: grid;
+display: grid;
+  grid-template-columns: 1fr 1fr;
   max-width: 800px;
   margin-top: 50px;
-  grid-template-columns: 1fr 1fr;
 }
 
 .table__hobbies {
   border: 1px solid green;
   border-radius: 5px 0 0 5px;
-  place-items: center;
 }
 
 .table__social {
   border: 1px solid green;
   border-radius: 0 5px 5px 0;
-  place-items: center;
-  border-bottom: 1px solid green;
 }
 
 .table__hobbies-title,
 .table__social-title {
   text-align: center;
+  border-bottom: 1px solid green;
+  padding: 5px 0;
+  font-weight: bold;
 }
+.hobbies,.social {
+    justify-items: center;
+    align-items: center;
+    list-style-position: inside;
+}
+.title {
+    background:green;
+    text-align:center;
+    color:white;
+    border-radius: 5px 5px 5px 5px;
+    padding:5px;
+    margin:20px 0;
+}
+.technologies {
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.technologies__item {
+    display: flex;
+    flex-direction: column;
+    margin:15px 0;
+}
+
   
 
 
